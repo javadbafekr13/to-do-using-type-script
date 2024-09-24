@@ -1,0 +1,231 @@
+.card {
+  backdrop-filter: blur(19px) saturate(176%);
+  -webkit-backdrop-filter: blur(19px) saturate(176%);
+  background-color: rgba(255, 255, 255, 0.41);
+  /* font-family: "Roboto", sans-serif; */
+  min-height: 230px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  min-width: 340px;
+ display: flex;
+ flex-direction: column;
+justify-content: space-between;
+ font-size: larger;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  transition: 0.4s;
+}
+.card:hover {
+  min-height: 239px;
+  min-width: 349px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  
+ 
+  padding: 10px;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+.card .card-number {
+  color: #000000;
+  font-size: larger;
+}
+
+.card .card-details {
+  display: flex;
+ 
+  height: 20px;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.card .card-details .name,
+.card .card-details .expiry {
+
+
+  color: #000000;font-size: large;
+}
+.card .card-details .expiry {
+  text-align: right;
+}
+.card .chip {
+  width: 40px;
+  height: 30px;
+  background-color: #ccf125;
+  border-radius: 4px;
+  position: relative;
+  
+}
+.addbuttom {
+  background-color: black;
+  width: 35%;
+  height: 50px;
+  font-size: 25px;
+  font-family: cursive;
+}
+.addbuttom:hover {
+  background-color: rgb(255, 255, 255);
+  width: 35%;
+  height: 50px;
+  color: black;
+  font-size: 25px;
+}
+.addcard {
+  width: 30%;
+  padding: 25px;
+  height: fit-content;
+
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgb(58, 58, 58, 0.6) 0px 2px 3px 3px;
+  margin-top: 220px;
+  backdrop-filter: blur(19px) saturate(176%);
+  -webkit-backdrop-filter: blur(19px) saturate(176%);
+  background-color: rgba(255, 255, 255, 0.41);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.listShow {
+  width: 35%;
+ padding: 20px 20px 20px 20px;
+ align-items: center;
+  /* backdrop-filter: blur(4px); */
+  display: flex;
+  justify-content: space-around;
+
+ gap: 20px;
+  flex-direction: column;
+  box-shadow: rgb(58, 58, 58, 0.6) 0px 2px 3px 3px ;
+  margin-top: 220px;
+  /* backdrop-filter: blur(16px) saturate(180%); 
+  -webkit-backdrop-filter: blur(16px) saturate(180%); */
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.buttonsAndChipset{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttomsEddit{
+  display: flex;
+  justify-content: space-between;
+  width:70px;
+}
+.editeCancel{
+  display: flex;
+  width: 66.6%;
+  justify-content: space-between;
+}
+
+
+
+
+.card2 {
+  backdrop-filter: blur(19px) saturate(176%);
+  -webkit-backdrop-filter: blur(19px) saturate(176%);
+  background-color: rgba(255, 255, 255, 0.41);
+  /* font-family: "Roboto", sans-serif; */
+  min-height: 240px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  min-width: 350px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ font-size: larger;
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  transition: 0.4s;
+}
+.card2:hover {
+  min-height: 242px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  min-width: 352px;
+  
+  padding: 15px;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+.card2 .card2-number {
+  color: #000000;
+  font-size: larger;
+  font-size: 20px;
+}
+
+.card2 .card2-details {
+  display: flex;
+ 
+  height: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card2 .card2-details .name,
+.card2 .card2-details .expiry {
+  font-size: 16px;
+  font-size: large;
+  color: #000000;
+}
+
+.card2 .card2-details .expiry {
+  text-align: right;
+  font-size: large;
+}
+
+.card2 .chip {
+  width: 40px;
+  height: 30px;
+  background-color: #ccf125;
+  border-radius: 4px;
+  position: relative;
+}
+
+
+
+
+.listHeather{
+  position: relative;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color: rgba(254, 254, 254, 0.4);
+  backdrop-filter: blur(7px);
+  align-items: center;
+  border-radius: 9px;
+  box-shadow: #2f2f2f 2px 5px 7px 4px;
+  font-size: 30px;
+  font-family: cursive;
+  text-align: center;
+
+}
+
+.dontShowText{
+  color: rgba(255, 255, 255, 0);
+}
+
+.listShowAddcard{
+  width: 35%;
+ padding: 20px 20px 20px 20px;
+ align-items: center;
+  /* backdrop-filter: blur(4px); */
+  display: flex;
+  justify-content: space-around;
+
+ gap: 20px;
+  flex-direction: column;
+ 
+  margin-top: 100px;
+  /* backdrop-filter: blur(16px) saturate(180%); 
+  -webkit-backdrop-filter: blur(16px) saturate(180%); */
+  
+  border-radius: 12px;
+
+}

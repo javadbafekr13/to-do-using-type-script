@@ -1,0 +1,243 @@
+
+.counter-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    backdrop-filter: blur(4px);
+  }
+  
+ 
+  .counter-container.first-counter {
+    background-color:rgba(51, 146, 255, 0.6);
+    backdrop-filter: blur(8px);
+    animation: rotateRightLeft 3s ease-in-out infinite;
+  }
+  
+  .first-counter h1 {
+    color: #000000;
+  }
+  
+  .first-counter button {
+    background-color: #00bfff; font-size: large;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .first-counter button:hover {
+    background-color: #3333cc; 
+    color: white;
+  }
+  
+ 
+  .counter-container.second-counter {
+    background-color:rgba(255, 77, 219, 0.4); 
+    backdrop-filter: blur(8px);
+  }
+  
+  .second-counter h1 {
+    color: #000000; 
+  }
+  
+  .second-counter button {
+    background-color: #ff69b4;
+    font-size: large;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .second-counter button:hover {
+    background-color: #cc3366; 
+  }
+  
+  
+  .counter-results {
+    background-color: #f2f2f2; 
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: large;
+  }
+  
+
+
+
+  
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+ 
+  .counter-container button {
+    animation: pulse 0.6s;
+  }
+  
+  .counter-container h1 {
+    animation: fadeIn 1s;
+  }
+ 
+
+
+@keyframes rotateSlowly {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+.first-counter {
+    animation: rotateSlowly 4s linear infinite;
+  }
+ 
+
+  
+@keyframes sway {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px); 
+    }
+  }
+  
+  @keyframes sway2 {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(90px); 
+    }
+  }
+  
+  .first-counter {
+    animation: sway 2s ease-in-out infinite alternate;
+  }
+  .bals{
+    width: 40px;
+    background-color: #4dd2ff;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -2;
+    top: 4px;
+    height: 40px;
+    animation: sway2 2s ease-in-out infinite alternate;
+  }
+  .first-counter-bals {
+    animation: sway 1s ease-in-out infinite alternate;
+  }
+  
+.bals2{
+    width: 80px;
+    background-color: #21ffe9;
+    border-radius: 50%;
+    position: fixed;
+    z-index: -3;
+    top: 60px;
+    height: 80px;
+    animation: sway2 3s ease-in-out infinite alternate;
+}
+
+
+
+
+
+
+
+.counter-container.thired-counter {
+    background-color:rgba(24, 255, 170, 0.6);
+    backdrop-filter: blur(8px);
+  }
+  
+  .thired-counter h1 {
+    color: #000000;
+  }
+  
+  .thired-counter button {
+    background-color: #6bffba; 
+    color: rgb(0, 0, 0);font-size: large;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .thired-counter button:hover {
+    background-color: #04d20b; 
+    color: white;
+  }
+  .counter-container.forth-counter {
+    background-color:rgba(231, 255, 51, 0.6);
+    backdrop-filter: blur(8px);
+  }
+  
+  .forth-counter h1 {
+    color: #000000;
+  }
+  
+  .forth-counter button {
+    background-color: #c8ff00; 
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 10px;font-size: large;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .forth-counter button:hover {
+    background-color: #a8cc33; 
+    color: white;
+  }
+  
+
+
+  @keyframes rotateRightLeft {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg); /* Rotate to the right */
+    }
+    50% {
+      transform: rotate(0deg); /* Rotate back to the original position */
+    }
+    75% {
+      transform: rotate(-5deg); /* Rotate to the left */
+    }
+    100% {
+      transform: rotate(0deg); /* Rotate back to the original position */
+    }
+  }
+  
+  .picture {
+    animation: rotateRightLeft 3s ease-in-out infinite;
+  }
+  

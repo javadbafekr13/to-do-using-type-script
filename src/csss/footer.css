@@ -1,0 +1,48 @@
+.app-footer {
+    background-color: #ebebeb;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+ padding: 40px;
+margin-top: 200px;
+border: solid black 1px;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+  gap: 220px;
+   
+  }
+  
+  .footer-content p {
+    
+    margin: 0;
+   
+    flex-direction: row;
+   
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 50px;
+    padding: 22px;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .social-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+
